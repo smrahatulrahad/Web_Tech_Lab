@@ -1,125 +1,66 @@
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="style.css" />
-
-    <style>
-      #header6 {
-        color: yellow;
-      }
-    </style>
   </head>
+
   <body>
-    <h1>This is my website</h1>
-    <h2>This is my website</h2>
-    <h3>This is my website</h3>
-    <h4>This is my website</h4>
-    <h5>This is my website</h5>
-    <h6 id="header6" style="color: green">This is my website</h6>
-    <h6 class="header6">This is my website</h6>
-    <h6 class="header6">This is my website</h6>
-    <h6 class="header6">This is my website</h6>
+    <h1 id="hed1">Welcome to Pental Shop</h1>
 
-    <p class="header6">This is my website</p>
-    <b> <p>This is my website</p></b>
-    <i>
-      <b> <p>This is my website</p></b></i
-    >
-    <p>Name <span style="color: red">(Required) *</span></p>
+    <h3> About this task</h3>
+    <p>In this lab,you will learn basic HTML structure, formatting text, creating</p>
+    <p>simple tables , and using forms for input</p>
 
-    <h2>
-      Name
-      <span style="color: red">(Required) *</span>
-    </h2>
+<table border="1" id="table1">
+<tr>
+<th id="th1">Item Name   </th>
+<th id="th2">Quantity</th>
+<th id="th3">Status</th>
+</tr>
 
-    <table border="1">
+<tr>
+    <td>Pencil</td>
+    <td>100</td>
+    <td>In Stock</td>
+</tr>
+
+<tr>
+    <td>Notebook</td>
+    <td>50</td>
+    <td>Low Stock</td>
+</tr>
+
+<tr>
+    <td>Markers</td>
+    <td>15</td>
+    <td>In Stock</td>
+</tr>
+
+</table>
+
+<form id="pad1">
+<h2 id="h2">Contact Information</h2>
+
+    <table  id="table2">
+
+        <td>Name</td>
+        <td id="n1"><input type="text"</td>
+      </tr>
+
       <tr>
-        <th>ID</th>
-        <th>Name</th>
-        <th>Email</th>
-        <th>Phone</th>
-        <th>Image</th>
+        <td > Email</td>
+        <td id="n2"><input type="text"></td>
       </tr>
       <tr>
-        <td>101</td>
-        <td>Mr Abdur Rahman</td>
-        <td>rahman@test.com</td>
-        <td>+8801711-223344</td>
-        <td>
-          <img
-            src="https://fastly.picsum.photos/id/16/2500/1667.jpg?hmac=uAkZwYc5phCRNFTrV_prJ_0rP0EdwJaZ4ctje2bY7aE"
-            width="80px"
-            height="50px"
-          />
-        </td>
+        <td>Message</td>
+        <td id="n3"><input type="text"></td>
       </tr>
+      
       <tr>
-        <td>101</td>
-        <td>Mr Abdur Rahman</td>
-        <td>rahman@test.com</td>
-        <td>+8801711-223344</td>
-        <td>
-          <img
-            src="https://fastly.picsum.photos/id/16/2500/1667.jpg?hmac=uAkZwYc5phCRNFTrV_prJ_0rP0EdwJaZ4ctje2bY7aE"
-            width="80px"
-            height="50px"
-          />
-        </td>
-      </tr>
-      <tr>
-        <td>101</td>
-        <td>Mr Abdur Rahman</td>
-        <td>rahman@test.com</td>
-        <td>+8801711-223344</td>
-        <td>
-          <img
-            src="https://fastly.picsum.photos/id/16/2500/1667.jpg?hmac=uAkZwYc5phCRNFTrV_prJ_0rP0EdwJaZ4ctje2bY7aE"
-            width="80px"
-            height="50px"
-          />
-        </td>
-      </tr>
-      <tr>
-        <td>101</td>
-        <td>Mr Abdur Rahman</td>
-        <td>rahman@test.com</td>
-        <td>+8801711-223344</td>
-        <td>
-          <img
-            src="https://fastly.picsum.photos/id/16/2500/1667.jpg?hmac=uAkZwYc5phCRNFTrV_prJ_0rP0EdwJaZ4ctje2bY7aE"
-            width="80px"
-            height="50px"
-          />
-        </td>
-      </tr>
-      <tr>
-        <td>101</td>
-        <td>Mr Abdur Rahman</td>
-        <td>rahman@test.com</td>
-        <td>+8801711-223344</td>
-        <td>
-          <img
-            src="https://fastly.picsum.photos/id/16/2500/1667.jpg?hmac=uAkZwYc5phCRNFTrV_prJ_0rP0EdwJaZ4ctje2bY7aE"
-            width="80px"
-            height="50px"
-          />
-        </td>
-      </tr>
-      <tr>
-        <td>101</td>
-        <td>Mr Abdur Rahman</td>
-        <td>rahman@test.com</td>
-        <td>+8801711-223344</td>
-        <td>
-          <img
-            src="https://fastly.picsum.photos/id/16/2500/1667.jpg?hmac=uAkZwYc5phCRNFTrV_prJ_0rP0EdwJaZ4ctje2bY7aE"
-            width="80px"
-            height="80px"
-            style="border-radius: 100%"
-          />
-        </td>
+        <td></td>
+        <td><button id="btn">Submit</button></td>
       </tr>
     </table>
 
-    <button>Login</button>
+  </form>
   </body>
 </html>
