@@ -1,0 +1,58 @@
+#f1{
+    font-family :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    
+}
+
+#fl1{
+    width: 30%;
+    border-radius: 2%;
+    border-color: blueviolet;
+
+}
+
+#l1{
+    background-color: blue;
+    color: aliceblue;
+    padding: 1.2%;
+    border-radius: 2%;
+}
+
+#bt1{
+    border-radius: 10%;
+    background-color: blue;
+    color: aliceblue;
+    position:relative;
+    left:100px;
+    font-weight: bold;
+    padding: 0.6%;
+    width: 7%;
+}
+
+#bt2{
+    border-radius: 10%;
+    background-color: rgb(189, 199, 208);
+    color: black;
+    position: absolute;
+    left: 210px;
+    font-weight: bold;
+    padding: 0.6%;
+    width: 7%;
+}
+
+#t1{
+    width: 10%;
+    font-weight: bold;
+    
+}
+.c1{
+   margin-left: 30px;
+   display: flex;
+   gap: 20px;
+
+    
+}
+
+#tt2{
+    text-align: left;
+}
