@@ -1,0 +1,38 @@
+<html>
+ <head>
+    <script src="sty.js"></script>
+  </head>
+
+
+<body>
+
+<fieldset>
+<legend>Login Form</legend>
+<form onsubmit="return login()">
+    <table>
+<tr>
+    <td>User Name: </td>
+    <td><input type="text" placeholder="Enter your user name" id="usname"</td>
+    <td><p id="nameE" style="color:red"></p></td>
+</tr>
+ 
+<tr>
+    <td>Password: </td>
+    <td><input type="password" placeholder="Enter your password" id="upas" </td>
+     <td><p id="passE" style="color:red"></p></td>
+</tr>
+<tr><td></td>
+    <td><button>Log In</td></button>
+    <td><p id="atFail" style="color:red"></p></td>
+    
+</tr>
+
+<tr>
+    <td><p id="sucs"></p></td>
+    <td><p id="fail"></p></td>
+</tr>
+</table>
+</form>
+</fieldset> 
+</body>
+</html>
