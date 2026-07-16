@@ -1,0 +1,114 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="task2.css">
+    <script src="task2.js"></script>
+</head>
+
+<body>
+
+<h1 id="hed1">Student Registration System</h1>
+
+<form id="f1" onsubmit="return regStd()">
+
+    <fieldset id="fl1">
+
+         <legend id="l1">Student Registration Form</legend>
+
+        <table id="table1">
+
+            <tr>
+                <td>First Name <p class="star">*</p> </td>
+                <td>
+                    <input type="text" id="fname" placeholder="Enter first name">
+                </td>
+                <td>
+                    <p id="fnameE"></p>
+                </td>
+            </tr>
+
+             <tr>
+                <td>Last Name <p class="star">*</p> </td>
+                <td>
+                    <input type="text" id="lname" placeholder="Enter last name">
+                </td>
+                <td>
+                    <p id="lnameE"></p>
+                </td>
+            </tr>
+
+              <tr>
+                <td>  Student ID <p class="star">*</p> </td>
+                <td> <input type="text" id="sid" placeholder="Enter student ID  (eg:23-53343-3)"> </td>
+                <td>
+                    <p id="sidE"></p>
+                </td>
+            </tr>
+             <tr>
+                <td> Email <p class="star">*</p> </td>
+                <td>
+                    <input type="text" id="email" placeholder="Enter student email">
+                </td>
+                <td>
+                    <p id="emailE"></p>
+                </td>
+            </tr>
+
+             <tr>
+                <td> Credit Completed <p class="star">*</p> </td>
+                <td>
+                    <input type="number" id="credit" placeholder="Enter completed credit">
+                </td>
+                <td>
+                    <p id="creditE"></p>
+                </td>
+            </tr>
+
+             <tr>
+                <td> Department <p class="star">*</p> </td>
+                <td>
+                    <select id="dept">
+                        <option value="">Select Department</option>
+                        <option value="CSE">CSE</option>
+                        <option value="EEE">EEE</option>
+                        <option value="DS">DS</option>
+                    </select>
+                </td>
+                <td>
+                    <p id="deptE"></p>
+                </td>
+            </tr>
+
+             <tr>
+                <td></td>
+                <td id="button1">
+                    <button id="bt1" type="submit">Submit</button>
+                </td>
+                <td></td>
+            </tr>
+
+        </table>
+
+    </fieldset>
+
+</form>
+
+<p id="sucs"></p>
+
+<h2 id="h2">Registered Student List</h2>
+
+<table border="1" id="tabList">
+
+    <tr>
+        <th id="th1">First Name</th>
+        <th id="th2">Last Name</th>
+        <th id="th3">Student ID</th>
+        <th id="th4">Email</th>
+        <th id="th5">Credit</th>
+        <th id="th6">Department</th>
+    </tr>
+
+    
+</table>
+
+</body>
+</html>

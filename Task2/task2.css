@@ -1,0 +1,157 @@
+#hed1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 33px;
+    color: rgb(7, 7, 60);
+    text-align: center;
+}
+
+#f1{
+    margin: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+#fl1{
+    width: 550px;
+    margin: auto;
+    border-color: rgb(127, 38, 210);
+    border-radius: 9px;
+    background-color: rgb(208, 208, 222);
+}
+
+#l1{
+    background-color: rgb(37, 37, 144);
+    color: rgb(219, 230, 240);
+    padding: 8px;
+    border-radius: 5px;
+}
+
+#table1{
+    width: 620px;
+}
+
+
+#fname{
+ padding: 10px;
+ width: 350px;
+}
+
+#lname{
+ padding: 10px;
+ width: 350px;
+}
+
+#sid{
+ padding: 10px;
+ width: 350px;
+}
+
+#email{
+    padding: 10px;
+    width: 350px;
+}
+#credit{
+ padding: 10px;
+ width: 350px;
+}
+
+#dept{
+     padding: 10px;
+     width: 350px;
+}
+
+.star{
+    display: inline;
+    color: red;
+}
+
+#fnameE{
+    color: red;
+}
+
+#lnameE{
+    color: red;
+}
+
+#sidE{
+    color: red;
+}
+
+#emailE{
+    color: red;
+}
+
+#creditE{
+    color: red;
+}
+
+#deptE{
+    color: red;
+}
+
+#button1{
+    text-align: center;
+   
+}
+
+#bt1{
+    background-color: rgb(12, 12, 251);
+    color: rgb(238, 242, 245);
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    width: 81px;
+}
+
+#sucs{
+    color: rgb(5, 153, 5);
+    text-align: center;
+    font-weight: bold;
+}
+
+#h2{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#tabList{
+    width: 720px;
+    margin: auto;
+    background-color: rgb(218, 218, 250);
+    border-collapse: collapse;
+}
+
+#th1{
+    color: rgb(238, 242, 246);
+    background-color: rgb(8, 8, 55);
+}
+
+#th2{
+    color: rgb(243, 248, 252);
+    background-color: rgb(9, 9, 65);
+}
+
+#th3{
+    color: rgb(227, 234, 240);
+    background-color: rgb(7, 7, 57);
+}
+
+#th4{
+    color: rgb(229, 239, 248);
+    background-color: rgb(7, 7, 53);
+}
+
+#th5{
+    color: rgb(229, 234, 238);
+    background-color: rgb(6, 6, 49);
+}
+
+#th6{
+    color: rgb(226, 234, 241);
+    background-color: rgb(8, 8, 59);
+}
+
+#tabList{
+    text-align: center;
+    padding: 7px;
+}
